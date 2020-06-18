@@ -1,0 +1,1080 @@
+[
+    {
+        "id": "65b6d2d2.e8ad3c",
+        "type": "tab",
+        "label": "Data Collection",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "9cacf2b4.9d05d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "73e4cf47.31e87",
+        "type": "ui_group",
+        "z": "",
+        "name": "Display list",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "95647ef4.c304f",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "97716ae4.4bdef8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "95647ef4.c304f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "68fd6ad6.680264",
+        "type": "ui_group",
+        "z": "",
+        "name": "TextDisplay",
+        "tab": "95647ef4.c304f",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d6ddc816.309fc8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5eb18f26.2cb3",
+        "type": "ui_group",
+        "z": "",
+        "name": "details",
+        "tab": "d6ddc816.309fc8",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false
+    },
+    {
+        "id": "f4a83af9.93cb98",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "1856d765.861839",
+        "type": "ui_group",
+        "z": "",
+        "name": "Map",
+        "tab": "206f04dc.c9eb3c",
+        "order": 2,
+        "disp": true,
+        "width": "19",
+        "collapse": false
+    },
+    {
+        "id": "d02c7679.d5aeb8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Brief Counts",
+        "tab": "206f04dc.c9eb3c",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false
+    },
+    {
+        "id": "a5db94db.9cc7f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Alerts",
+        "tab": "206f04dc.c9eb3c",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "26b40aa7.60f196",
+        "type": "ui_group",
+        "z": "",
+        "name": "Current Status",
+        "tab": "edd9b58f.4b3848",
+        "order": 3,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "34cdad70.1017a2",
+        "type": "ui_group",
+        "z": "",
+        "name": "Driver Details",
+        "tab": "edd9b58f.4b3848",
+        "order": 6,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "81680526.a1efa8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Truck Details",
+        "tab": "edd9b58f.4b3848",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "7bdbc59d.80927c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Live Location",
+        "tab": "edd9b58f.4b3848",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "9fff66ca.f9b6f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Vehicle Details",
+        "tab": "edd9b58f.4b3848",
+        "order": 4,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "4f090957.0ca758",
+        "type": "ui_group",
+        "z": "",
+        "name": "Telemetry Data",
+        "tab": "edd9b58f.4b3848",
+        "order": 7,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "be8658dd.2237f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Journey Details",
+        "tab": "edd9b58f.4b3848",
+        "order": 5,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "12663dc8.bfc302",
+        "type": "ui_group",
+        "z": "",
+        "name": "Today's Jobs",
+        "tab": "206f04dc.c9eb3c",
+        "order": 4,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "f7ce24b6.646188",
+        "type": "ui_group",
+        "z": "",
+        "name": "Jobs over Month",
+        "tab": "206f04dc.c9eb3c",
+        "order": 5,
+        "disp": true,
+        "width": 26,
+        "collapse": false
+    },
+    {
+        "id": "d5b88a60.4c0b68",
+        "type": "ui_group",
+        "z": "",
+        "name": "Truck List",
+        "tab": "c612e817.826c58",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "206f04dc.c9eb3c",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Dashboard - Refrigerated Trucks",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "edd9b58f.4b3848",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Truck View",
+        "icon": "local_shipping",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c612e817.826c58",
+        "type": "ui_tab",
+        "z": "",
+        "name": "All Trucks",
+        "icon": "view_list",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "54a6b0ff.874ab",
+        "type": "ui_group",
+        "z": "",
+        "name": "status",
+        "tab": "d6ddc816.309fc8",
+        "order": 2,
+        "disp": false,
+        "width": "26",
+        "collapse": false
+    },
+    {
+        "id": "caea36fe.893598",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ec0d7582.1e3758",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3b891e3b.a112f2",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "ec0d7582.1e3758",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ba1f52db.7c86",
+        "type": "MSSQL-CN",
+        "z": "",
+        "name": "Marketplace Stage",
+        "server": "ltimosaicthings.database.windows.net",
+        "port": "3302",
+        "encyption": true,
+        "database": "MarketplaceStage",
+        "useUTC": false,
+        "connectTimeout": "",
+        "requestTimeout": "",
+        "cancelTimeout": "",
+        "pool": "",
+        "parseJSON": false
+    },
+    {
+        "id": "73f8bbe5.697704",
+        "type": "ui_group",
+        "z": "",
+        "name": "Map",
+        "tab": "d56089b0.19f468",
+        "order": 2,
+        "disp": true,
+        "width": 18,
+        "collapse": false
+    },
+    {
+        "id": "22780bd8.1c93f4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Brief Counts",
+        "tab": "d56089b0.19f468",
+        "order": 1,
+        "disp": false,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "4c596ab.8557094",
+        "type": "ui_group",
+        "z": "",
+        "name": "Alerts",
+        "tab": "d56089b0.19f468",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5153d6ce.c7fcc8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Current Status",
+        "tab": "7d041f6b.ff2e7",
+        "order": 3,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "ca351e2d.e611f",
+        "type": "ui_group",
+        "z": "",
+        "name": "Driver Details",
+        "tab": "7d041f6b.ff2e7",
+        "order": 6,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "68d0f5e8.04100c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Truck Details",
+        "tab": "7d041f6b.ff2e7",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "6e55df99.f2749",
+        "type": "ui_group",
+        "z": "",
+        "name": "Live Location",
+        "tab": "7d041f6b.ff2e7",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "52038ea9.bb4b8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Telemetry Data",
+        "tab": "7d041f6b.ff2e7",
+        "order": 7,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "f2d53f9d.140be",
+        "type": "ui_group",
+        "z": "",
+        "name": "Journey Details",
+        "tab": "7d041f6b.ff2e7",
+        "order": 5,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "1f4dc980.170267",
+        "type": "ui_group",
+        "z": "",
+        "name": "Jobs over past Week",
+        "tab": "d56089b0.19f468",
+        "order": 5,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "1ddaebe1.66fca4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Truck List",
+        "tab": "84130859.6b8258",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "d56089b0.19f468",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Dashboard - Refrigerated Trucks",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7d041f6b.ff2e7",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Truck View",
+        "icon": "local_shipping",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "84130859.6b8258",
+        "type": "ui_tab",
+        "z": "",
+        "name": "All Trucks",
+        "icon": "view_list",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6ad5ff28.1a537",
+        "type": "ui_group",
+        "z": "",
+        "name": "Today's Jobs",
+        "tab": "d56089b0.19f468",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cbf4a04a.984bf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "68d0f5e8.04100c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c8105cd2.9a95d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "68d0f5e8.04100c",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c5f6138c.5fe79",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "68d0f5e8.04100c",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c3d5124.19f42",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "68d0f5e8.04100c",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "edece968.612118",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ca351e2d.e611f",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7e5b241f.96eddc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ca351e2d.e611f",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b02af72.3f54d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ca351e2d.e611f",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e90b4978.bcc618",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ca351e2d.e611f",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9eaa60b9.a924b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "22780bd8.1c93f4",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2007dcb0.2d9554",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "22780bd8.1c93f4",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "44a6a3f4.d1dacc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "22780bd8.1c93f4",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9ebd51f4.997c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "22780bd8.1c93f4",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "30b063d6.27498c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7073c3bd.8cd95c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "cbf46716.a3d998",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "dfc4a2c8.a6f28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a7745b66.e1b4c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "557d365c.4669c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "90cf5ec5.fbc67",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "caf8c01e.ca9c3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1f4dc980.170267",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3a14228c.38608e",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "mqttPatientALert",
+        "broker": "broker.mqttdashboard.com",
+        "port": "1883",
+        "clientid": "csdvfvffdfgg",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "e1602860.519dd8",
+        "type": "azure-event-hub-receive",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "",
+        "connectionstring": "",
+        "consumergroup": "$default",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "14537d4e.52f6c3",
+                "ed8b1c66.aa854"
+            ]
+        ]
+    },
+    {
+        "id": "f873770f.4a8738",
+        "type": "MSSQL",
+        "z": "65b6d2d2.e8ad3c",
+        "mssqlCN": "ba1f52db.7c86",
+        "name": "",
+        "query": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "x": 600,
+        "y": 120,
+        "wires": [
+            [
+                "b5b25821.731848"
+            ]
+        ]
+    },
+    {
+        "id": "14537d4e.52f6c3",
+        "type": "function",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Insert Query",
+        "func": "\nvar data = msg.payload;\n\nvar query = `insert into telemetryData (timestamp,truckId,fuel,temperature,humidity,lat,lon)\nvalues ('${data.timestamp}',${data.truckId},${data.fuel},${data.temperature},${data.humidity},${data.lat},${data.lon});`;\n\nmsg.payload = query;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [
+                "f873770f.4a8738"
+            ]
+        ]
+    },
+    {
+        "id": "b5b25821.731848",
+        "type": "debug",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 760,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ed8b1c66.aa854",
+        "type": "function",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Patient Status & Assistance Request",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "2c2c47aa.fc9878",
+                "abc67fca.408d6",
+                "70ccb353.3fadec",
+                "fba9e910.8cefa8"
+            ]
+        ]
+    },
+    {
+        "id": "2c2c47aa.fc9878",
+        "type": "mqtt out",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Patient Risk- Low",
+        "topic": "broker.mqttdashboard.com",
+        "qos": "0",
+        "retain": "false",
+        "broker": "3a14228c.38608e",
+        "x": 620,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "abc67fca.408d6",
+        "type": "mqtt out",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Patient Risk - Medium",
+        "topic": "patientEMergyMedium",
+        "qos": "0",
+        "retain": "false",
+        "broker": "3a14228c.38608e",
+        "x": 620,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "70ccb353.3fadec",
+        "type": "mqtt out",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Patient Risk - High",
+        "topic": "Immediate",
+        "qos": "0",
+        "retain": "false",
+        "broker": "3a14228c.38608e",
+        "x": 640,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "fba9e910.8cefa8",
+        "type": "mqtt out",
+        "z": "65b6d2d2.e8ad3c",
+        "name": "Patient Imediate Assistance  Request",
+        "topic": "imeditate assistance",
+        "qos": "0",
+        "retain": "",
+        "broker": "3a14228c.38608e",
+        "x": 630,
+        "y": 480,
+        "wires": []
+    }
+]
